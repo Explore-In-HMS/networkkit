@@ -14,6 +14,17 @@ In your `RestClient` instance, you can add the Network Kit Gson Converter.
         .build()
 ```
 # Download
+
+Add it to your root build.gradle with:
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+and:
+
 ```gradle
 dependencies {
     implementation "com.github.Explore-In-HMS.networkkit:converter-gson:1.0.0"

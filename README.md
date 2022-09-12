@@ -5,20 +5,20 @@
 The Network Kit Support Libraries consist of two projects: Network Kit Gson Converter and Network Kit Logging Interceptor.
 The project directory is as follows:
 
-|-- [Network Kit Gson Converter](https://github.com/Explore-In-HMS/networkkit/converter-gson)
-|-- [Network Kit Logging Interceptor](https://github.com/Explore-In-HMS/networkkit/logging-interceptor)
+|-- [Network Kit Gson Converter](https://github.com/Explore-In-HMS/networkkit/tree/master/converter-gson)
+|-- [Network Kit Logging Interceptor](https://github.com/Explore-In-HMS/networkkit/tree/master/logging-interceptor)
 
 Also, you can find a demo project which uses both of them.
 
 # Network Kit Gson Converter
-In Android, when developers want to send objects as JSON in the HTTP request body, they need to convert them using a converter. Developers mostly use the Gson library to convert Java/Kotlin Objects into their JSON representation. `Network Kit Gson Converter` Library is a ready-to-use converter library that serves as a bridge between the Gson and Network Kit. The library provides the transformation for us. For details, please refer to [Network Kit Gson Converter](https://github.com/Explore-In-HMS/networkkit/converter-gson).
+In Android, when developers want to send objects as JSON in the HTTP request body, they need to convert them using a converter. Developers mostly use the Gson library to convert Java/Kotlin Objects into their JSON representation. `Network Kit Gson Converter` Library is a ready-to-use converter library that serves as a bridge between the Gson and Network Kit. The library provides the transformation for us. For details, please refer to [Network Kit Gson Converter](https://github.com/Explore-In-HMS/networkkit/tree/master/converter-gson).
 
 
 <img src="images/GsonConverterGraph.png"> 
 
 
 # Network Kit Logging Interceptor
-You have probably loaded some data from a remote server if you have created an Android app. While developing your app, you frequently need to see what data you are getting from the remote server to your app. `Network Kit Logging Interceptor` is an interceptor that lets you log all the API requests made by your app as well as the responses returned by the server. For details, please refer to [Network Kit Logging Interceptor](https://github.com/Explore-In-HMS/networkkit/logging-interceptor).
+You have probably loaded some data from a remote server if you have created an Android app. While developing your app, you frequently need to see what data you are getting from the remote server to your app. `Network Kit Logging Interceptor` is an interceptor that lets you log all the API requests made by your app as well as the responses returned by the server. For details, please refer to [Network Kit Logging Interceptor](https://github.com/Explore-In-HMS/networkkit/tree/master/logging-interceptor).
 
 
 <img src="images/LoggingInterceptorGraph.png"> 
@@ -105,18 +105,18 @@ Upon completing the essential parts of the code, connect your mobile device to t
 # License
 ```xml
 
-Copyright 2022. Explore in HMS. All rights reserved.
+ Copyright 2022. Explore in HMS. All rights reserved.
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+ http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
 
 ```

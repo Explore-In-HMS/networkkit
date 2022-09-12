@@ -34,6 +34,17 @@ loggingInterceptor.redactHeader("User-Session")
 
 
 # Download
+
+Add it to your root build.gradle with:
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```
+and:
+
 ```gradle
 dependencies {
     implementation "com.github.Explore-In-HMS.networkkit:logging-interceptor:1.0.0"
