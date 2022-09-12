@@ -17,16 +17,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    signingConfigs {
-        release {
-            storeFile file('yourjksfile.jks')
-            keyAlias 'xxx'
-            keyPassword 'xxxx'
-            storePassword 'xxxxx'
-            v1SigningEnabled true
-            v2SigningEnabled true
-        }
-    }
 
     buildFeatures{
         viewBinding true
@@ -34,14 +24,10 @@ android {
 
     buildTypes {
         release {
-            signingConfig signingConfigs.release
-            debuggable false
-            minifyEnabled true
-            shrinkResources true
+            debuggable true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         debug {
-            signingConfig signingConfigs.release
             debuggable true
         }
     }
